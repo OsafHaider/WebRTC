@@ -172,7 +172,6 @@ useEffect(() => {
           className="w-full rounded-lg"
           autoPlay
           playsInline
-          muted
           ref={(video) => {
             if (video) video.srcObject = myStream;
           }}
@@ -190,7 +189,6 @@ useEffect(() => {
           className="w-full rounded-lg"
           autoPlay
           playsInline
-          muted
           ref={(video) => {
             if (video) video.srcObject = remoteStream;
           }}
